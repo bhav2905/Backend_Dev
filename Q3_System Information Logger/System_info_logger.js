@@ -1,7 +1,6 @@
 const fs = require('fs');
 
 const logFile = "systemInfo.log";
-
 function systemInfoLogger() {
     const info = {
         platform: process.platform,
